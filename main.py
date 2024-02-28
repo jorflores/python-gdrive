@@ -5,7 +5,7 @@ from pydrive.drive import GoogleDrive
 
 gauth = GoogleAuth()
 #Path completo donde se encuentra el archivo client_secrets.json
-gauth.settings['client_config_file'] = 'D:/Playground/Python/itesm/client_secrets.json'
+gauth.settings['client_config_file'] = ''
 gauth.LocalWebserverAuth()
 
 drive = GoogleDrive(gauth)
